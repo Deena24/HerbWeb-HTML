@@ -1,0 +1,55 @@
+html{
+    scrollbar-width: thin;
+    border-radius: 12px;
+    background-color: #f9efe5;
+}
+
+body{
+    font-family: 'Mitr', sans-serif;
+    margin: 50px;
+}
+
+.h1 {
+    color: black;
+    font-size: 300%;
+}
+
+.p {
+    color: black;
+    font-size: 150%;
+}
+
+.gallery-wrapper {
+    background-color: #a38166;
+    box-sizing: border-box;
+    height: 215px;
+    overflow: hidden;
+}
+  
+.gallery-scroll {
+    background-color:#a38166;
+    box-sizing: border-box;
+    height: 215px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+  
+.gallery {
+    background-color: #a38166;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 160px;
+    padding: 0px 8px;
+}
+  
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+}
+  
+.item img {
+    display: block;
+    height: 100%;
+}
